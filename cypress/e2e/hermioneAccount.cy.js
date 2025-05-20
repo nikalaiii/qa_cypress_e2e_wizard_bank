@@ -41,8 +41,6 @@ describe('Bank app', () => {
 
     cy.get('[ng-class="btnClass3"]').click();
 
-    cy.get('form.ng-pristine > .btn').click();
-
     cy.get('.form-control').type('500');
 
     cy.get('form.ng-dirty > .btn').click();
